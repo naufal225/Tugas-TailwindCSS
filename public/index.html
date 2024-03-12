@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="h-[140vh] font-Poppins">
+    <section class="mt-32 h-72">
+        <div class="container flex justify-center items-center bg-[#c6ab80] w-[68%] h-[500px] bg-contain rounded-r-3xl" style="background-image: url('../Images/Images/bg-aboutus.png');">
+        </div>
+        <div class="container flex justify-center items-center absolute top-48 left-20">
+            <div class="text-content">
+                <h2 class="font-bold text-3xl">What they say about us</h2>
+                <div class=>
+                    <h4 class="opacity-55">We always provide the best service and always maintain the quality of coffee</h4>
+                </div>
+            </div>
+            <div class="image-content flex gap-x-10 justify-between items-center relative">
+                <div class="orang relative">
+                    <img class="w-56" src="../Images/Images/testimonial-1.png" alt="">
+                    <div class="card-profile absolute top-48 left-12 bg-amber-200">
+                        <p>Naura</p>
+                        <div class="">
+                            <p class="text-sm">I really love the cappucino, the coffe was very smooth</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="orang relative">
+                    <img class="w-56" src="../Images/Images/testimonial-2.png" alt="">
+                    <div class="card-profile absolute top-48 left-12 bg-amber-200">
+                        <p>John</p>
+                        <div class="">
+                            <p class="text-sm">This coffee shop is very convenient</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="orang relative">
+                    <img class="w-56" src="../Images/Images/testimonial-3.png" alt="">
+                    <div class="w-60 pr-12 card-profile absolute top-48 left-12 bg-amber-200">
+                        <p>Azura</p>
+                        <div class="">
+                            <p class="text-sm">The coffee menu here is very much</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-image: url(../Images/Images/bg-newsletter.png);" class="bg-cover container bg-black w-[70%] h-[400px] rounded-xl gap-3 flex-col flex justify-center items-center mx-auto mt-80">
+        <h2 class="text-white text-3xl font-bold">Subscribe to get 50% discount price</h2>
+        <form action="" class="relative w-96 mt-6 h-11 bg-white rounded-3xl flex felx-row p-3">
+            <input type="email" name="email" id="email" placeholder="Email address" class="text-amber-950 text-opacity-50 font-bold focus:text-opacity-100 border-none">
+            <button class="bg-amber-950 w-28 text-sm h-7  flex justify-center items-center rounded-xl ml-12 text-white">Order now</button>
+        </form>
+    </section>
+</body>
+</html>
